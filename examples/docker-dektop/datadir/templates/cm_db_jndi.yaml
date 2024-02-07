@@ -10,7 +10,7 @@ data:
           enabled: true
           wait-for-it: true
           wait-timeout: 10
-          url: jdbc:postgresql://ogsv1-postgresql:5432/ogscloud
+          url: jdbc:postgresql://ogsdocker-postgresql:5432/ogscloud
           username: admin
           password: pass@1234
           maximum-pool-size: 10
